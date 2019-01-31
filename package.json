@@ -1,0 +1,33 @@
+{
+  "name": "learnhub",
+  "version": "1.0.0",
+  "description": "Collect opinions and reviews about Conferences, Video and Online Courses.",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeeL/learnhub.git"
+  },
+  "keywords": [
+    "learn",
+    "review",
+    "learnhub"
+  ],
+  "author": "Sergii Paryzhskyi <parizhskiy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeeL/learnhub/issues"
+  },
+  "homepage": "https://github.com/HeeL/learnhub#readme"
+}
