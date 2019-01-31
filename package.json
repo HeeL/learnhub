@@ -4,6 +4,8 @@
   "description": "Collect opinions and reviews about Conferences, Video and Online Courses.",
   "main": "index.js",
   "dependencies": {
+    "@emotion/core": "^10.0.6",
+    "@emotion/styled": "^10.0.6",
     "next": "^7.0.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
