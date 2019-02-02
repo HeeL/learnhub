@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import React from 'react';
 import Head from '../components/Head';
+import Categories from '../components/Categories';
 
 const headlineStyles = css`
   display: flex;
@@ -29,5 +30,6 @@ export default () => (
     <Head title="Learnhub - learn where to learn" />
     <Headline>Learnhub</Headline>
     <SubHeadline>learn where to learn</SubHeadline>
+    <Categories />
   </React.Fragment>
 );
