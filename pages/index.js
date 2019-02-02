@@ -6,17 +6,15 @@ import Head from '../components/Head';
 const headlineStyles = css`
   display: flex;
   justify-content: center;
-  color: #2E8B57;
+  color: #0058A3;
   font-size: 4rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
+  font-weight: 600;
 `;
 const SubHeadlineStyles = css`
   display: flex;
   justify-content: center;
-  color: #cccccc;
-  font-size: 1.2rem;
-  font-style: italic;
+  color: #8A9299;
+  font-size: 1rem;
   letter-spacing: 0.2rem;
 `;
 const Headline = styled.div`
@@ -30,6 +28,6 @@ export default () => (
   <React.Fragment>
     <Head title="Learnhub - learn where to learn" />
     <Headline>Learnhub</Headline>
-    <SubHeadline>Learn where to learn</SubHeadline>
+    <SubHeadline>learn where to learn</SubHeadline>
   </React.Fragment>
 );

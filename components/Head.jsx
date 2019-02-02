@@ -2,13 +2,14 @@ import { css, Global } from '@emotion/core';
 import Head from 'next/head';
 
 const globalStyles = css`
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
     html,
     body {
-        padding: 0;
+        padding: 0.5rem;
         margin: 0;
         min-height: 100%;
-        font-family: Helvetica, Arial, sans-serif;
         font-size: 12px;
+        font-family: Roboto;
     }
 `;
 
