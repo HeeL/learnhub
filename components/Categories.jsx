@@ -15,6 +15,9 @@ const linkStyles = css`
   margin: 2rem;
   font-size: 2rem;
   text-decoration: underline;
+  &:hover {
+      color: #79A2C6;
+  }
 `;
 const CategoryLink = styled.a`
   ${linkStyles};
