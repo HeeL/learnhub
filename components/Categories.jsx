@@ -23,6 +23,9 @@ const CategoryLink = styled.a`
   ${linkStyles};
 `;
 const categoriesContainerStyles = css`
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
     display: flex;
     flex-direction: row;
     align-items: center;
